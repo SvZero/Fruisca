@@ -23,3 +23,7 @@ this our app features:
 
 ## App Demo
 this how our app looks like: [Fruisca Demo](https://github.com/SvZero/Fruisca/blob/MD-Documentation/MD%20Documentation/app%20documentation.mp4)
+
+## link download application
+
+you can download app  [here](https://drive.google.com/file/d/10rRcxyCiJN0l9BFNfKawg7NgJLInbjtW/view?usp=drive_link)
