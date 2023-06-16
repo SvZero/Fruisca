@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "678598448683",
+    "firebase_url": "https://home-f-default-rtdb.firebaseio.com",
+    "project_id": "home-f",
+    "storage_bucket": "home-f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678598448683:android:b0e24532aadfcdac473c6e",
+        "android_client_info": {
+          "package_name": "com.glendito.fruisca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678598448683-ta2g1asnfcstmsi6gl4p0mbjr1sivaud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.glendito.fruisca",
+            "certificate_hash": "c9499d60c9d94090f96036749557c9ea816375c4"
+          }
+        },
+        {
+          "client_id": "678598448683-qhatd3609u37fl828blub3hrql2l3kqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1ls7eoKGyPllnRqnsvAV-nbkO07FpLdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678598448683-clokoc0s1k073p5fi30ei8ga0v6q31p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
