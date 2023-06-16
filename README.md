@@ -2,7 +2,7 @@
 Bangkit CAPSTONE project:  Fruisca: App for Checking Fruit Freshness
 Capstone Team ID : C23 - PR549
 
-# Cloud Computing Documentation
+# Mobile Developer Documentation
 
 ## Tools
 Tools we use to do this project:
