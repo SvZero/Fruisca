@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.profile.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/imgBg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_bg" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo_profile"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgUser"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_marginStart="40dp"
+        android:textSize="16sp"
+        tools:text="Email@gmail.com" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgBg"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgAddress"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/address" />
+
+            <TextView
+                android:id="@+id/txtAddressHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:layout_toEndOf="@+id/imgAddress"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"
+                android:textColor="#B0ADAD" />
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jln. Patuan Nagari No. IV, Kec. Porsea, Kab. Toba, Prov. Sumatera Utara"
+                android:layout_toEndOf="@+id/imgAddress"
+                android:layout_marginEnd="64dp"
+                android:layout_below="@+id/txtAddressHeader"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imgName"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/imgAddress"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="48dp"
+                android:src="@drawable/name" />
+
+            <TextView
+                android:id="@+id/txtNameHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgAddress"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_toEndOf="@+id/imgName"
+                android:text="Nama Lengkap"
+                android:textColor="#B0ADAD"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNameDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNameHeader"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="64dp"
+                android:layout_toEndOf="@+id/imgName"
+                android:textColor="@color/black"
+                tools:text="Opet" />
+
+            <ImageView
+                android:id="@+id/imgPhone"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/imgName"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="48dp"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/txtPhoneHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgName"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_toEndOf="@+id/imgPhone"
+                android:text="Nomor Telepon"
+                android:textColor="#B0ADAD"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPhoneHeader"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="64dp"
+                android:layout_toEndOf="@+id/imgPhone"
+                android:text="0812 3456 7890"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imgEmail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/imgPhone"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="48dp"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:id="@+id/txtEmailHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgPhone"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_toEndOf="@+id/imgEmail"
+                android:text="Surel"
+                android:textColor="#B0ADAD"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEmailDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtEmailHeader"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="64dp"
+                android:layout_toEndOf="@+id/imgEmail"
+                android:textColor="@color/black"
+                tools:text="opettamvan@gmail.com" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:backgroundTint="@color/button_bg"
+                android:layout_below="@+id/txtEmailDetail"
+                android:layout_centerHorizontal="true"
+                android:text="Edit Profil"
+                android:textColor="#000000"
+                app:cornerRadius="16dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

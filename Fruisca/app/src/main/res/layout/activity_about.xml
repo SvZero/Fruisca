@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutActivity">
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_arrow_left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Tentang"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/btnBack"
+        android:layout_margin="16dp"
+        android:text="Aplikasi Fruisca dapat memberikan manfaat baik bagi konsumen maupun petani yaitu untuk mendeteksi tingkat kesegaran suatu buah sehingga memudahkan petani dalam memilah buah yang mereka panen. Selain itu, aplikasi ini berpotensi untuk mempromosikan kebiasaan makan yang lebih sehat dengan mendorong konsumen untuk mengkonsumsi buah-buahan yang segar dan bergizi." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/txtDesc"
+        android:text="Fruisca ver 1.1" />
+
+</RelativeLayout>

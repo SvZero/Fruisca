@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/edit_text_bg"
+    tools:context=".ui.chooserole.ChooseRoleActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_name"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:textSize="20sp"
+        android:text="Pilih role anda terlebih dahulu" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStudent"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/white"
+        android:text="Pelajar/Mahasiswa"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="#000000"
+        app:elevation="16dp"
+        app:cornerRadius="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFarmer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/white"
+        android:text="Petani"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="#000000"
+        app:elevation="16dp"
+        app:cornerRadius="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPublic"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/white"
+        android:text="Umum"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="#000000"
+        app:elevation="16dp"
+        app:cornerRadius="12dp" />
+
+</LinearLayout>
