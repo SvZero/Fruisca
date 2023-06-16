@@ -2,6 +2,7 @@
 Bangkit CAPSTONE project:  Fruisca: App for Checking Fruit Freshness
 Capstone Team ID : C23 - PR549
 
+# Machine Learning Documentation
 ## Description
 Model can be use to classify 2 things:
   1. classify type of fruits (currently apple, orange, banana)
