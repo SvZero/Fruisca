@@ -16,7 +16,7 @@ Fruisca is Android-based application for classifying rotten fruits. The primary 
 ## Project Documentation:
 1. Learning Path documentation
     - [Machine Learning Documentation](https://github.com/SvZero/Fruisca/tree/ML-Documentation)
-    - [Cloud Computing Documentation](https://github.com/SvZero/Fruisca/tree/ML-Documentation)
+    - [Cloud Computing Documentation](https://github.com/SvZero/Fruisca/blob/CC-Documentation)
     - [Mobile Developer Documentation](https://github.com/SvZero/Fruisca/tree/ML-Documentation)
 2. Project Final Presentation : [Fruisca Presentation](https://www.canva.com/design/DAFl4mLwR4Q/uNXkuMkD6frGHbR7h25WPQ/view?utm_content=DAFl4mLwR4Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 3. 
