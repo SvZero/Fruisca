@@ -22,10 +22,4 @@ this our app features:
 
 
 ## App Demo
-this how our app looks like:
-<div align="center">
-  <video controls width="640" height="360">
-    <source src="MD Documentation/app documentation.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+this how our app looks like: [Fruisca Demo](https://github.com/SvZero/Fruisca/blob/MD-Documentation/MD%20Documentation/app%20documentation.mp4)
