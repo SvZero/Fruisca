@@ -32,10 +32,6 @@ this our Realtime Database look like:
 
 ## Project Cloud Architecture
 
-<p align="center">
-  <img src="ERD/diagram.jpg" alt="Diagram Cloud Architecture" />
-</p>
-
 We primarily use GCP to build API. We will use the Rest API and be hosted with the Firebase Realtime Database, authentication and storage on firebase and connected to the Google Cloud platform and deploy the API model that we built using App Engine, as well as deploy the machine learning model using cloud run
 
 ## Model API
