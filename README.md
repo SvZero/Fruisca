@@ -13,6 +13,13 @@ Our team wants to tackle this problem because we believe that Fruisca can benefi
 </p>
 Fruisca is Android-based application for classifying rotten fruits. The primary objective is to create an intuitive and visually appealing user interface that allows users to easily scan and classify fruits as fresh or rotten, the login account feature will provide personalized user experiences and enable data synchronization across multiple devices, the scan history feature will allow users to review their past fruit scans, providing them with valuable insights and enabling them to track their fruit quality over time.
 
+## Project Documentation:
+1. Learning Path documentation
+    - [Machine Learning Documentation](https://github.com/SvZero/Fruisca/tree/ML-Documentation)
+    - [Machine Learning Documentation](https://github.com/SvZero/Fruisca/tree/ML-Documentation)
+    - [Machine Learning Documentation](https://github.com/SvZero/Fruisca/tree/ML-Documentation)
+2. Project Final Presentation : [Fruisca Presentation](https://www.canva.com/design/DAFl4mLwR4Q/uNXkuMkD6frGHbR7h25WPQ/view?utm_content=DAFl4mLwR4Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+3. 
 ## Capstone Project Team:
 this our team member
 
