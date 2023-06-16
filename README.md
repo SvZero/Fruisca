@@ -15,7 +15,7 @@ Fruisca is Android-based application for classifying rotten fruits. The primary 
 
 ## Project architecture:
 <p align="center">
-  <img src="diagram.JPG" alt="Fruisca Logo" />
+  <img src="Project architecture.JPG" alt="Fruisca Logo" />
 </p>
 
 ## Project Documentation:
