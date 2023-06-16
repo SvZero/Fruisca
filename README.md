@@ -9,7 +9,7 @@ Our team wants to tackle this problem because we believe that Fruisca can benefi
 
 ## Project Description
 <p align="center">
-  <img src="https://drive.google.com/file/d/1gnbcEuFAZjG3PrM7mpBeaRMIyESAHoUc/view?usp=sharing" alt="Fruisca Logo" />
+  <img src="Capstone/Mobile Development/logo fruisca.png" alt="Fruisca Logo" />
 </p>
 Fruisca is Android-based application for classifying rotten fruits. The primary objective is to create an intuitive and visually appealing user interface that allows users to easily scan and classify fruits as fresh or rotten, the login account feature will provide personalized user experiences and enable data synchronization across multiple devices, the scan history feature will allow users to review their past fruit scans, providing them with valuable insights and enabling them to track their fruit quality over time.
 
