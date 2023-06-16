@@ -21,6 +21,15 @@ our project using realtime database on firebase, the database will be integrated
   <img src="ERD/erd.jpg" alt="ERD database" />
 </p>
 
+this our Realtime Database look like:
+<p align="center">
+  <img src="GCP Documentation/realtimedb.jpeg" alt="Realtime Database" />
+</p>
+
+<p align="center">
+  <img src="GCP Documentation/accdb.jpeg" alt="Account Database" />
+</p>
+
 ## Project Cloud Architecture
 
 <p align="center">
@@ -28,6 +37,14 @@ our project using realtime database on firebase, the database will be integrated
 </p>
 
 We primarily use GCP to build API. We will use the Rest API and be hosted with the Firebase Realtime Database, authentication and storage on firebase and connected to the Google Cloud platform and deploy the API model that we built using App Engine, as well as deploy the machine learning model using cloud run
+
+## Model API
+our Model is Deployed on GCP and using FastAPI to get API
+this our API looks:
+<p align="center">
+  <img src="GCP Documentation/modelAPI.jpeg" alt="Dashboard" />
+</p>
+
 
 ## Postman Documentation
 our result after call API using Postman for Database:
