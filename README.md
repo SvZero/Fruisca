@@ -23,6 +23,7 @@ tools our team using to create Machine Learning Model:
 - [Google Collab](https://colab.research.google.com)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [FastAPI](https://fastapi.tiangolo.com)
+- [Docker](https://www.docker.com)
 - [Albumentations](https://albumentations.ai/docs/)
 
 ## DATASETS
